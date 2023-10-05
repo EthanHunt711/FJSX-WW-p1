@@ -1,3 +1,26 @@
 * {
     box-sizing: border-box;
 }
+
+
+.nav-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 1em;
+    gap: 1em;
+    background-color: bisque;
+}
+
+.nav-div a{
+    text-decoration: none;
+}
+
+.nav-div a:hover {
+    color: red;
+}
+
+.nav-div a:active{
+    text-decoration: underline;
+    color: brown;
+}
