@@ -24,3 +24,52 @@
     text-decoration: underline;
     color: brown;
 }
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.main_all-tiles{
+    display: flex;
+    flex-direction: row;
+    border-style: dashed;
+    border-color: red;
+    padding: 1em;
+    justify-content: space-evenly;
+}
+.main_right-tiles {
+    flex-direction: column;
+    align-items: flex-start;
+    border-style: dashed;
+    border-color: blue;
+    padding: 1em;
+    
+}
+
+.main_left-tiles {
+    flex-direction: column;
+    align-items: flex-end;
+    border-style: dashed;
+    border-color: green;
+    padding: 1em;
+    
+}
+
+
+
+.main_tile-one, .main_tile-two, 
+.main_tile-three, .main_tile-four {
+    width: 10em;
+    height: 5em;
+    border-color: black;
+    border-style: dotted;
+    margin-top: 1em;
+}
+
+footer {
+    margin-top: auto;
+    background-color: aqua;
+}
