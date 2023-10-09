@@ -15,14 +15,71 @@ body {
     background-position: center;
     
 }
+
+.nav-bar{
+   border-bottom: 1px solid #BBBBBB; 
+}
+
 .nav-div-bar {
     display: none;
     flex-direction: row;
     justify-content: flex-end;
-    padding: 1em;
-    gap: 1em;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #031D44;
+    padding: 20px 0px;
+    margin: 0px 20px;
+    position: relative;
     background-color: bisque;
+    opacity: 0.75;
+    gap: 1.5rem;
 }
+
+.nav-div-bar:hover{
+    opacity: 1;
+}
+
+.nav-div-bar::before{
+    transition: 300ms;
+    height: 5px;
+    content: "";
+    position: absolute;
+    background-color: #031D44;
+}
+
+.nav-itm::before{
+    width: 0%;
+    bottom: 10px;
+}
+
+.nav-itm:hover::before{
+    width: 100%;
+}
+
+/* .nav-div-bar-itm-fade-up::before{
+    width: 100%;
+    bottom: 5px;
+    opacity: 0;
+}
+
+.nav-div-bar-itm-fade-up:hover::before{
+    bottom: 10px;
+    opacity: 1;
+}
+
+.nav-div-bar-itm-show-up::before{
+    height: 0%;
+    width: 100%;
+    bottom: 0px;
+}
+
+.nav-div-bar-itm-show-up:hover::before{
+    height: 5px;
+} */
+
+
 
 .nav-div-bar a{
     text-decoration: none;
@@ -33,10 +90,11 @@ body {
     color: red;
 }
 
-.nav-div-bar a:active{
+.nav-div-bar a:active {
     text-decoration: underline;
-    color: brown;
+    color: blue;
 }
+
 
 .nav-div-side {
     display: flex;
@@ -59,10 +117,6 @@ body {
     text-decoration: underline;
     color: brown;
 }
-
-
-
-
 
 
 .main_all-tiles{
