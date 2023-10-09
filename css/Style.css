@@ -1,10 +1,20 @@
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    background-color: #000;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    background-image: url('/img/startside.jpg');
+    background-size: cover;
+    background-position: center;
+    
+}
 .nav-div-bar {
     display: none;
     flex-direction: row;
@@ -51,12 +61,9 @@
 }
 
 
-body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    
-}
+
+
+
 
 .main_all-tiles{
     display: flex;
@@ -103,6 +110,22 @@ body {
     border-color: black;
     border-style: dotted;
     margin-top: 1em;
+}
+
+/* HERO */
+section#hero{
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+#hero h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
 }
 
 footer {
