@@ -16,23 +16,18 @@ body {
     
 }
 
-.nav-bar{
-   border-bottom: 1px solid #BBBBBB; 
-}
-
 .nav-div-bar {
     display: none;
-    flex-direction: row;
-    justify-content: flex-end;
+    align-items: center;
+    justify-content: space-between;
     font-weight: bold;
     font-size: 14px;
     text-transform: uppercase;
     text-decoration: none;
-    color: #031D44;
+    color: #fff;
     padding: 20px 0px;
     margin: 0px 20px;
     position: relative;
-    background-color: bisque;
     opacity: 0.75;
     gap: 1.5rem;
 }
@@ -46,7 +41,7 @@ body {
     height: 5px;
     content: "";
     position: absolute;
-    background-color: #031D44;
+    background-color: #fff;
 }
 
 .nav-itm::before{
@@ -58,42 +53,6 @@ body {
     width: 100%;
 }
 
-/* .nav-div-bar-itm-fade-up::before{
-    width: 100%;
-    bottom: 5px;
-    opacity: 0;
-}
-
-.nav-div-bar-itm-fade-up:hover::before{
-    bottom: 10px;
-    opacity: 1;
-}
-
-.nav-div-bar-itm-show-up::before{
-    height: 0%;
-    width: 100%;
-    bottom: 0px;
-}
-
-.nav-div-bar-itm-show-up:hover::before{
-    height: 5px;
-} */
-
-
-
-.nav-div-bar a{
-    text-decoration: none;
-    background-color: bisque;
-}
-
-.nav-div-bar a:hover {
-    color: red;
-}
-
-.nav-div-bar a:active {
-    text-decoration: underline;
-    color: blue;
-}
 
 
 .nav-div-side {
@@ -102,7 +61,8 @@ body {
     justify-content: flex-end;
     padding: 1em;
     gap: 1em;
-    background-color: bisque;
+    color: #fff;
+    /* background-color: bisque; */
 }
 
 .nav-div-side a{
@@ -181,16 +141,28 @@ section#hero{
     font-size: 3rem;
     margin-bottom: 1rem;
 }
-
+/* FOOTER */
 footer {
     margin-top: auto;
-    background-color: aqua;
+    background-color: #000;
+    display: flex;
+    flex-direction: row;
+    padding: 1.5rem;
+    color: #fff;
+    justify-content: space-between;
+
+}
+
+footer a{
+    color: #fff;
+    text-decoration: none;
 }
 
 
-@media only screen and (min-width: 720px){
+
+@media only screen and (min-width: 576px){
     .nav-div-bar {
-        display: flex;
+        display: inline-block;
     }
 
     .nav-div-side {
@@ -211,9 +183,9 @@ footer {
 
 }
 
-@media only screen and (min-width: 960px){
+@media only screen and (min-width: 992px){
     .nav-div-bar {
-        display: flex;
+        display: inline-block;
     }
     
     .nav-div-side {
