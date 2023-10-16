@@ -57,7 +57,7 @@ body{
     transition: all .4s;
 }
 
-ul li:hover a{
+.sidebar ul li:hover a{
     padding-left: 50px;
     color: #0d74f5;
     transition: all .4s ease;
@@ -67,7 +67,7 @@ ul li:hover a{
 }
 
 
-ul li a:active{
+.sidebar ul li a:active{
     background: #fff;
     transition: all .4s ease;
 }
@@ -81,7 +81,7 @@ ul li a:active{
     transition: all .4s ease-out;
 }
 
-ul li a i{
+.sidebar ul li a i{
     margin-right: 16px;
 }
 
@@ -211,7 +211,7 @@ main{
 }
 /* FOOTER */
 footer {
-    /* position: fixed; */
+    /* position: absolute; */
     height: 50px;
     display: flex;
     flex-direction: row;
@@ -222,6 +222,7 @@ footer {
     padding-left: 1em;
     padding-right: 1em;
     margin-top: auto;
+    z-index: 10;
 }
 
 
