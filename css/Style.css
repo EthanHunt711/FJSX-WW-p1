@@ -162,9 +162,12 @@ main{
 
 .synopsis{
     display: flex;
-    flex-direction: column;
-    color: #fff;
-    
+    flex-direction: column;   
+}
+
+.top-text{
+    mix-blend-mode: difference;
+    color: #fff;   
 }
 
 .synopsis h2{
