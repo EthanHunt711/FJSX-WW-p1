@@ -228,6 +228,7 @@ main{
 
 .summary-text{
     padding: 4px;
+    padding-left: 1em;
     width: 200px;
     background-color: #6fa8c2;
     border: none;
@@ -235,9 +236,15 @@ main{
     cursor: pointer;
 }
 
+.summary-text:hover{
+    background-color: #063146;
+    transition: all .4s ease;
+}
+
 .details-text{
     background-color: #6fa8c2;
     padding: 4px;
+    width: 400px;
     margin: 0;
     box-shadow: 1px 1px 2px #6fa8c2;
 }
@@ -321,6 +328,9 @@ main{
 
     main{
         margin-left: 270px;
+    }
+    .details-text{
+        width: 600px;
     }
 }
 
@@ -421,5 +431,9 @@ main{
     
     .others{
         margin-left: 2em;
+    }
+
+    .details-text{
+        width: 800px;
     }
 }
