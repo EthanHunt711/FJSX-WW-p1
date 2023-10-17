@@ -223,6 +223,8 @@ main{
     padding-right: 1em;
     margin-top: auto;
     z-index: 10;
+    border-top: 1px solid #fff;
+    
 }
 
 
