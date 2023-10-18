@@ -249,6 +249,14 @@ main{
     box-shadow: 1px 1px 2px #6fa8c2;
 }
 
+.other-tile img{
+
+    width: auto;
+    height: auto;
+    max-width: 500px;
+    max-height: 500px;
+
+}
 
 /* CONTACT FORMULA */
 .contact-formula{
@@ -331,6 +339,11 @@ main{
     }
     .details-text{
         width: 600px;
+    }
+
+    .other-tile img{
+        max-width: 700px;
+        max-height: 700px;
     }
 }
 
@@ -435,5 +448,10 @@ main{
 
     .details-text{
         width: 800px;
+    }
+
+    .other-tile img{
+        max-width: 900px;
+        max-height: 900px;
     }
 }
