@@ -138,7 +138,7 @@ label #cancel{
 
 
 /* MAIN CONTENT */
-section{
+.top-section{
     background: url('/img/startside.jpg') no-repeat;
     background-position: center;
     background-size: cover;
@@ -172,9 +172,9 @@ main img{
     flex-direction: column;   
 }
 
-.top-text{
-    mix-blend-mode: difference;
-    color: #fff;   
+.synopsis h1{
+    align-self: center;
+    color: #130b6d;   
 }
 
 .synopsis h2{
@@ -510,7 +510,7 @@ main img{
     }
 
     main{
-        margin-left: 0;
+        margin-left: 100px;
     }
 
     .other-tiles{
