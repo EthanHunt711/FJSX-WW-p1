@@ -2,9 +2,13 @@
 
 This is a class project aimed at fullfilling the required criteria mentioned in the instructions for the first assignment in webdevelopment course.
 
+---
+
 ## Project Description
 
 Based on the given instructions, the project is to contain some webpages representing an ordinary CV consisting of main sections of a formal CV such as _Profile_, _Career History_, _Education_, and so on. It is also required to have a flow of pages which are interconnected whith instant availability to checkout from one page to the next/other. The current page out to be visually detectable in the menu(s).
+
+---
 
 ## Pages' Description
 
@@ -26,3 +30,9 @@ The project contains 8 pages as follows:\
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Interests and hobbies outside of the work environment
 - ### Contact Details
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A formula for contacting me in case of is intrested
+
+---
+
+## Disclaimer
+
+This project is intended as a class project and has no other purposes. The project is also designed to be placeholder for further additions or modifications and that is why some pages are not filled with a bulk(s) of text.
