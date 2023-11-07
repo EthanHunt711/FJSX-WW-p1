@@ -190,6 +190,9 @@ main img{
     font-style: italic;
 }
 
+.middle-txt{
+    color: #fff;
+}
 .project-tiles{
     display: flex;
     flex-direction: column;
@@ -523,8 +526,8 @@ main img{
         margin-left: 100px;
     }
 
-    .other-tiles{
-        flex-direction: column;
+    .project-tiles{
+        flex-direction: row;
     }
     
     .tile-p1 ul, .tile-p2 ul{
