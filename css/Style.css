@@ -142,7 +142,7 @@ label #cancel{
     background: url('/img/startside.jpg') no-repeat;
     background-position: center;
     background-size: cover;
-    height: 100vh;
+    height: 130vh;
     transition: all .4s ease;
     
 }
@@ -163,13 +163,21 @@ main{
 main img{
     width: auto;
     height: auto;
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 400px;
+    max-height: 400px;
+    background-color: #0a5275;
 }
 
 .synopsis{
     display: flex;
-    flex-direction: column;   
+    flex-direction: column; 
+      
+}
+
+.cv-link{
+    width: 100%;
+    background-color: #fff;
+    padding: .5em;
 }
 
 .synopsis h1{
@@ -182,15 +190,15 @@ main img{
     font-style: italic;
 }
 
-.other-tiles{
+.project-tiles{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: .5em;
 }
 
 .tile-p1 ul, .tile-p2 ul{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: .5em;
 }
 
@@ -352,6 +360,8 @@ main img{
 
 .page-footer, .btop{
     margin-top: .5em;
+    margin-bottom: .5em;
+    display: inline-block;
 }
 
 .page-footer a{
@@ -498,7 +508,7 @@ main img{
 
     .current{
         border-style: none;
-        background: #063146;
+        background: #4da1cb;
     }
 
     input{
